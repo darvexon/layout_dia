@@ -5,7 +5,9 @@
 
   background-color: var(--color-bg-primary);
 
-  transition: background-color $trans-duration-base ease;
+  transition:
+    background-color $trans-duration-base,
+    border-radius $trans-duration-base;
 
   @include on-tablet {
     padding-top: $space-45;

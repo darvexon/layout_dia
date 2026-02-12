@@ -10,7 +10,10 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Air</title>
-    <link rel="icon" href="src/images/logo/air-favicon.svg">
+    <link
+      rel="icon"
+      href="src/images/logos/air-favicon.svg"
+    />
     <link
       rel="stylesheet"
       href="src/styles/main.scss"
@@ -32,7 +35,7 @@
                 class="logo"
               >
                 <img
-                  src="src/images/logo/air-logo.svg"
+                  src="src/images/logos/air-logo.svg"
                   alt="Air Logo"
                 />
               </a>
@@ -551,193 +554,200 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__content">
-          <section
-            id="form"
-            class="footer__form"
-          >
-            <h2 class="heading-2">Send us a message</h2>
-            <form
-              action="#"
-              class="form"
-              onsubmit="
-                this.reset();
-                return false;
-              "
+    <div class="background">
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <section
+              id="form"
+              class="footer__form"
             >
-              <div class="form__fields">
-                <label
-                  class="visually-hidden"
-                  for="email"
-                >
-                  Your email
-                </label>
-                <input
-                  class="input-text form__input"
-                  type="email"
-                  name="email"
-                  id="email"
-                  required
-                  placeholder="Your email"
-                />
-                <label
-                  class="visually-hidden"
-                  for="name"
-                >
-                  Your name
-                </label>
-                <input
-                  class="input-text form__input"
-                  type="text"
-                  name="name"
-                  id="name"
-                  required
-                  placeholder="Your name"
-                />
-                <label
-                  class="visually-hidden"
-                  for="message"
-                >
-                  Your message
-                </label>
-                <textarea
-                  class="input-text form__input"
-                  name="meassage"
-                  id="meassage"
-                  required
-                  placeholder="Your message"
-                ></textarea>
-              </div>
-              <button
-                class="button"
-                type="submit"
+              <h2 class="heading-2">Send us a message</h2>
+              <form
+                action="#"
+                class="form"
+                onsubmit="
+                  this.reset();
+                  return false;
+                "
               >
-                Send
-              </button>
-            </form>
-          </section>
-          <section id="contact-us" class="contact-us footer__contact-us">
-            <h2 class="heading-2 contact-us__heading">Contact us</h2>
-            <div class="contact-us__content">
-              <div class="contact-us__text-block">
-                <h5 class="heading-5 contact-us__sub-heading">Call us</h5>
-                <a
-                  href="tel: +654 321 987"
-                  class="text-lg contact-us__info"
+                <div class="form__fields">
+                  <label
+                    class="visually-hidden"
+                    for="email"
+                  >
+                    Your email
+                  </label>
+                  <input
+                    class="input-text form__input"
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="Your email"
+                  />
+                  <label
+                    class="visually-hidden"
+                    for="name"
+                  >
+                    Your name
+                  </label>
+                  <input
+                    class="input-text form__input"
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                    placeholder="Your name"
+                  />
+                  <label
+                    class="visually-hidden"
+                    for="message"
+                  >
+                    Your message
+                  </label>
+                  <textarea
+                    class="input-text form__input"
+                    name="meassage"
+                    id="meassage"
+                    required
+                    placeholder="Your message"
+                  ></textarea>
+                </div>
+                <button
+                  class="button"
+                  type="submit"
                 >
-                  654 321 987
-                </a>
-              </div>
-              <div class="contact-us__text-block">
-                <h5 class="heading-5 contact-us__sub-heading">Visit us</h5>
-                <a
-                  href="https://maps.app.goo.gl/gCdi5RYQGMx51Njx6"
-                  target="_blank"
-                  class="text-lg contact-us__info"
-                >
-                  2905 West Drive, Buffalo Grove
-                </a>
-              </div>
-              <div class="contact-us__icons-block">
-                <h5 class="heading-5 contact-us__sub-heading">our socials</h5>
-                <div class="contact-us__icons">
+                  Send
+                </button>
+              </form>
+            </section>
+            <section
+              id="contact-us"
+              class="contact-us footer__contact-us"
+            >
+              <h2 class="heading-2 contact-us__heading">Contact us</h2>
+              <div class="contact-us__content">
+                <div class="contact-us__text-block">
+                  <h5 class="heading-5 contact-us__sub-heading">Call us</h5>
                   <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
+                    href="tel: +654 321 987"
+                    class="text-lg contact-us__info"
                   >
-                    <svg class="icon icon--md contact-us__icon">
-                      <use href="./src/images/icons/icons.svg#facebook"></use>
-                    </svg>
-                  </a>
-                  <a
-                    href="https://x.com/"
-                    target="_blank"
-                  >
-                    <svg class="icon icon--md contact-us__icon">
-                      <use href="./src/images/icons/icons.svg#twitter"></use>
-                    </svg>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                  >
-                    <svg class="icon icon--md contact-us__icon">
-                      <use href="./src/images/icons/icons.svg#instagram"></use>
-                    </svg>
+                    654 321 987
                   </a>
                 </div>
+                <div class="contact-us__text-block">
+                  <h5 class="heading-5 contact-us__sub-heading">Visit us</h5>
+                  <a
+                    href="https://maps.app.goo.gl/gCdi5RYQGMx51Njx6"
+                    target="_blank"
+                    class="text-lg contact-us__info"
+                  >
+                    2905 West Drive, Buffalo Grove
+                  </a>
+                </div>
+                <div class="contact-us__icons-block">
+                  <h5 class="heading-5 contact-us__sub-heading">our socials</h5>
+                  <div class="contact-us__icons">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                    >
+                      <svg class="icon icon--md contact-us__icon">
+                        <use href="./src/images/icons/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://x.com/"
+                      target="_blank"
+                    >
+                      <svg class="icon icon--md contact-us__icon">
+                        <use href="./src/images/icons/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                    >
+                      <svg class="icon icon--md contact-us__icon">
+                        <use
+                          href="./src/images/icons/icons.svg#instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </section>
-          <div class="footer__bottom">
-            <div class="footer__branding">
-              <a
-                href="index.html"
-                class="logo"
-              >
-                <img
-                  src="src/images/logo/air-logo.svg"
-                  alt="Air Logo"
-                />
-              </a>
-              <button
-                type="button"
-                class="theme-switcher"
-              >
-                <div class="theme-switcher__thumb"></div>
-                <svg
-                  class="icon theme-switcher__icon theme-switcher__icon--left"
+            </section>
+            <div class="footer__bottom">
+              <div class="footer__branding">
+                <a
+                  href="index.html"
+                  class="logo"
                 >
-                  <use href="./src/images/icons/icons.svg#dark-mode"></use>
-                </svg>
-                <svg
-                  class="icon theme-switcher__icon theme-switcher__icon--right"
+                  <img
+                    src="src/images/logos/air-logo.svg"
+                    alt="Air Logo"
+                  />
+                </a>
+                <button
+                  type="button"
+                  class="theme-switcher"
                 >
-                  <use href="./src/images/icons/icons.svg#light-mode"></use>
-                </svg>
-              </button>
+                  <div class="theme-switcher__thumb"></div>
+                  <svg
+                    class="icon theme-switcher__icon theme-switcher__icon--left"
+                  >
+                    <use href="./src/images/icons/icons.svg#dark-mode"></use>
+                  </svg>
+                  <svg
+                    class="icon theme-switcher__icon theme-switcher__icon--right"
+                  >
+                    <use href="./src/images/icons/icons.svg#light-mode"></use>
+                  </svg>
+                </button>
+              </div>
+              <nav class="nav">
+                <ul class="nav__list footer__nav-list">
+                  <li class="nav__item">
+                    <a
+                      href="#about-us"
+                      class="nav__link footer__nav-link nav-text"
+                    >
+                      About us
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a
+                      href="#services"
+                      class="nav__link footer__nav-link nav-text"
+                    >
+                      Services
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a
+                      href="#testimonials"
+                      class="nav__link footer__nav-link nav-text"
+                    >
+                      Testimonials
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a
+                      href="#contact-us"
+                      class="nav__link footer__nav-link nav-text"
+                    >
+                      Contact Us
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
-            <nav class="nav">
-              <ul class="nav__list footer__nav-list">
-                <li class="nav__item">
-                  <a
-                    href="#about-us"
-                    class="nav__link footer__nav-link nav-text"
-                  >
-                    About us
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a
-                    href="#services"
-                    class="nav__link footer__nav-link nav-text"
-                  >
-                    Services
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a
-                    href="#testimonials"
-                    class="nav__link footer__nav-link nav-text"
-                  >
-                    Testimonials
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a
-                    href="#contact-us"
-                    class="nav__link footer__nav-link nav-text"
-                  >
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </nav>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
