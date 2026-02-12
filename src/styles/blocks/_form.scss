@@ -7,11 +7,10 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border: 1px solid $color-white;
-  -webkit-box-shadow: 0 0 0 1000px $color-black inset;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset;
   transition: background-color 5000s ease-in-out 0s;
 
-  -webkit-text-fill-color: $color-white;
+  -webkit-text-fill-color: var(--color-text-primary);
 }
 
 .form {
