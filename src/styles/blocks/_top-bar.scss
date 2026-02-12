@@ -1,6 +1,10 @@
 .top-bar {
   padding-block: $space-5;
 
+  @include on-small-desktop {
+    padding-block: $space-12;
+  }
+
   &__content {
     display: flex;
     align-items: center;
