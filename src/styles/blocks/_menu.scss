@@ -2,7 +2,9 @@
   overflow: auto;
   height: 100vh;
   background-color: var(--color-accent-main-100);
-  transition: background-color $trans-duration-base;
+  transition:
+    background-color $trans-duration-base,
+    opacity $trans-duration-base;
 
   &__content {
     display: flex;
@@ -18,8 +20,6 @@
     margin-bottom: $space-5;
 
     background-color: inherit;
-
-    transition: background-color $trans-duration-base;
   }
 
   &__nav-list {

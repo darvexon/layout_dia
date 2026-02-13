@@ -8,8 +8,8 @@
   background-color: var(--color-bg-primary);
 
   transition:
-    background-color $trans-duration-base ease,
-    border-radius $trans-duration-base ease;
+    background-color $trans-duration-base,
+    border-radius $trans-duration-base;
 
   @include on-small-desktop {
     min-height: 100vh;
@@ -23,8 +23,6 @@
     inset: 0;
 
     opacity: 0;
-
-    transition: opacity $trans-duration-base;
 
     &--opened {
       pointer-events: all;
