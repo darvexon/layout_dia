@@ -1,16 +1,4 @@
 .card-services {
-  display: flex;
-  flex-direction: column;
-
-  box-sizing: border-box;
-  width: 100%;
-  height: var(--card-height-md);
-  padding: $space-8;
-  border-radius: var(--border-radius-card);
-
-  background-color: var(--color-bg-secondary);
-  box-shadow: $shadow-card;
-
   @for $n from 1 through 12 {
     $accent: (($n - 1) % 4) + 1;
 
@@ -19,6 +7,25 @@
       --color-text-number: var(--color-accent-#{$accent});
       --color-bg-icon: var(--color-accent-#{$accent});
     }
+  }
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: var(--card-height-md);
+  padding: $space-8;
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-card);
+
+  background-color: var(--color-bg-secondary);
+  box-shadow: $shadow-card;
+
+  transition: border-color $trans-duration-base;
+
+  @include hover {
+    border-color: var(--color-bg-icon);
   }
 
   &__number {
